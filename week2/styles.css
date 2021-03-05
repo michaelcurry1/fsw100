@@ -1,0 +1,19 @@
+h1 {
+    color:green;
+   
+
+}
+h1 , h2 {
+    font-family:Georgia;
+    text-align: center;
+} 
+P {
+    line-height: 25px;
+}
+a {
+    text-decoration: none;
+
+}
+.ideas {
+    text-transform: uppercase;
+}
