@@ -12,8 +12,12 @@ P {
 }
 a {
     text-decoration: none;
-
+    color: green;
 }
 .ideas {
     text-transform: uppercase;
 }
+a:hover {
+    color: red;
+    text-decoration:underline
+  }
