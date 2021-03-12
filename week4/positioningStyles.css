@@ -1,0 +1,24 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+ /* p{
+     padding:0%;
+     margin:20%
+ } */
+ .box-model{
+     height:350px;
+     width:450px;
+ }
+ .fakeimg{
+     height:200px;
+     width:300px;
+     float:left;
+ }
