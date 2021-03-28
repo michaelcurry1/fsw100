@@ -1,0 +1,123 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: center; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-size: 100px;
+    font: italic;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+ .navbar{
+     text-align: center;
+margin: 20px 0 0 ;
+padding: 10px 0;
+
+    
+ }
+
+header{
+    text-align: center;
+    color: green;
+}
+li{
+    font-family: 'Lucida Sans';
+    font-size: 100px;
+}
+
+.item-container{
+    flex-direction: row;
+    float: inline-end;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 425px) {
+    * {
+        box-sizing: border-box;
+        font-family: 'Lexend', sans-serif;
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .item-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .item-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+        font-family: 'Lexend', sans-serif;
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .item-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    .item-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+   
+    .item-container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+    }
+}
