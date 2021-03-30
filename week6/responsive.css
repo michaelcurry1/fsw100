@@ -29,6 +29,12 @@ li{
 table{
     float: right;
     font-size: 25px;
+    grid-column: 3/4;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
 }
 .item-container{
     flex-direction: row;
@@ -52,6 +58,11 @@ table{
     flex-direction: row;
     float: inline-end;
     font-size: 50px;
+}
+
+.item-container3 img,.item-container2 img ,.item-container1 img{
+    height: auto;
+    width: 100%;
 }
 
 
