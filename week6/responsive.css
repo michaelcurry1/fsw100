@@ -6,35 +6,56 @@
     width: 100%; /* Full width */
     font-size: 100px;
     font: italic;
+    text-align: center;
+    margin: 20px 0 0 ;
+    padding: 10px 0;
   }
 
   * {
     box-sizing: border-box;
   }
 
-
- .navbar{
-     text-align: center;
-margin: 20px 0 0 ;
-padding: 10px 0;
-
-    
- }
-
 header{
     text-align: center;
     color: green;
+    font-size: 25px;
 }
 li{
     font-family: 'Lucida Sans';
     font-size: 100px;
+    float: inherit;
 }
 
+table{
+    float: right;
+    font-size: 25px;
+}
 .item-container{
     flex-direction: row;
     float: inline-end;
     font-size: 50px;
+
 }
+.item-container1{
+    flex-direction: row;
+    float: inline-end;
+    font-size: 50px;
+}
+
+.item-container2{
+    flex-direction: row;
+    float: inline-end;
+    font-size: 50px;
+}
+
+.item-container3{
+    flex-direction: row;
+    float: inline-end;
+    font-size: 50px;
+}
+
+
+
 
 @media only screen and (max-width: 425px) {
     * {
@@ -49,33 +70,6 @@ li{
         padding: 0px;
     }
 
-    .item-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .item-container1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 25px;
-    }
-
-    .item-container2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .item-container3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        gap: 10px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -91,33 +85,21 @@ li{
         padding: 0px;
     }
 
-    .item-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .item-container1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 25px;
-    }
-
-    .item-container2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 25px;
-    }
-
    
-    .item-container3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 25px;
+  @media only screen and (min-width: 768px) {
+    * {
+        box-sizing: border-box;
+        font-family: 'Lexend', sans-serif;
+        color: white;
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
     }
 }
+
+    
+
