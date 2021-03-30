@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
 .navbar {
     overflow: hidden;
     background-color: yellow;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    padding:25px;
+    
+    
+}
+.navbar a{
+    margin:15px;
+    color: darkred;
 }
 main.fixed {
     position: fixed;
@@ -29,24 +38,51 @@ main.fixed {
   .header{
       padding:10px;
       font-size: 35px;
-      margin-left: 20%;
+      margin-left: 17%;
+      margin-top: 100px;
+      font-family: 'Train One', cursive;
+
+
 }
 
 .drum-img {
-    max-width:100%;
+    width:50%;
     height:auto;
-    margin-left: 32%;
+    margin-left: 20%;
+    margin-bottom: 100px;
 }
 
 
 .header2{
-    margin-left: 25%;
+    margin-left: 18%;
     font-style: italic;
-    font-size: 35px;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 footer{
     margin-left: 35%;
     font-style: italic;
     font-size: 40px;
+    margin-top: 15px;
+}
+
+article{
+    font-size: 25px;
+    line-height: 40px;
+}
+table{
+    float: right;
+    font-size: 15px;
+}
+ul{
+    float: left;
+    font-size: 15px;
+}
+
+section{
+    position: relative;
+    margin-top: 100px;
+    float: none;
 }
