@@ -72,6 +72,7 @@ main{
     * {
         box-sizing: border-box;
         font-family: 'Lexend', sans-serif;
+        /* color: crimson; */
     }
     
     html, body {
@@ -83,10 +84,11 @@ main{
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     * {
         box-sizing: border-box;
         font-family: 'Lexend', sans-serif;
+        /* color: cyan; */
     }
     
     html, body {
@@ -95,13 +97,16 @@ main{
         margin: 0px;
         padding: 0px;
     }
+    li{
+        font-size: 35px;
+    }
 
-   
+}
   @media only screen and (min-width: 768px) {
     * {
         box-sizing: border-box;
         font-family: 'Lexend', sans-serif;
-        color: white;
+        /* color: white; */
     }
     
     html, body {
