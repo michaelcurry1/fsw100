@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+a {
+     /* overflow: hidden;     background-color: rgb(90, 25, 85); */
+    /* position: center; Set the navbar to fixed position */
+    /* top: 0; Position the navbar at the top of the page */
+    /* width: 100%;  */
+    font-size: 100px;
+    font: italic;
+    text-align: center;
+    /* margin: 20px 0 0 ; */
+    /* padding: 10px 0; */
+    /* margin-bottom: 20%; */
+    /* margin-left: 20%; */
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html{
+      background-color: rgb(85, 65, 12);
+  }
+
+  a{
+      font-size: 35px;
+  }
+
+  header{
+      background-color: maroon;
+      height: 50px;
+  }
+  main{
+      background-color: sienna;
+  }
+
+  .header1{
+      margin-left: 14%;
+      font-family: 'Train One', cursive;
+  }
+
+  .header2{
+      margin-left: 10%;
+      font-family: 'Train One', cursive;
+  }
+
+  .header3{
+      margin-left: 35%;
+      font-family: 'Train One', cursive;
+  }
+
+  .nav3{
+      float: right;
+      margin-right: 30%;
+  }
+
+  .nav2{
+      float: right;
+      margin-left: 0%;
+  }
+
+  .nav1{
+      margin-left: 20px;
+     
+  }
+  .nav1:hover{
+    background-color: #69ffa8;
+   
+}
+
+.nav2:hover{
+    background-color: #69ffa8;
+   
+}
+
+.nav3:hover{
+    background-color: #69ffa8;
+   
+}
+
+  .grid-container{
+      margin-left: 45%;
+      font-size: 150%;
+      font-style: italic;
+  }
+
+  .item-container1{
+      margin-left: 12%;
+  }
+
+ 
+footer{
+  margin: 0%;
+  background-color: tan;
+  height: 100%;
+}
+
+h2{
+    margin-left: 37%;
+    
+}
+
+table{
+    float: inline-start;
+    background-color: tan;
+    margin-left: 32%;
+    font-size: 25px;
+
+}
+
+.address{
+    background-color: tan;
+    margin-left: 28%;
+    font-family: 'Train One', cursive;
+}
+
+.drummers{
+    margin-left: 37%;
+}
+
+
+  
+@media only screen and (max-width: 425px) {
+    * {
+        box-sizing: border-box;
+      
+      
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .item-container1{
+       
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    * {
+        box-sizing: border-box;
+        font-family: 'Lexend', sans-serif;
+        /* color: cyan; */
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    li{
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    * {
+        box-sizing: border-box;
+     
+    }
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+  
+
