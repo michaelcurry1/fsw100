@@ -80,8 +80,25 @@ main{
         height: 100%;
         margin: 0px;
         padding: 0px;
+       
+        
     }
-
+    h1 ,a ,li,table,h5{
+        font-size: 25px;
+    
+    }
+    /* tbody{
+        display:flex ;
+        flex-direction: column;
+    } */
+    main{
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    } 
+    table{
+        grid-column: 1/2;
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
